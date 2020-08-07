@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SimpleClicker</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="SimpleClicker.css">
+	<link rel="Shortcut Icon" href="SC-Logo.png">
+	<script type="text/javascript" src="SimpleClicker.js"></script>
+</head>
+<body>
+	<header>
+		<h1>SimpleClicker</h1>
+	</header>
+
+	<div class="main-container">
+		<div class="izq-container"> <!-- Izquierda -->
+			<div class="resumen">Resumen</div>
+			<div class="resumen-body">
+				<div class="pts-box">
+					<span class="pts-txt">Puntos:</span>
+					<div class="main-circle"><span id="puntos">0</span></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="cen-container"> <!-- Centro -->
+			<div class="inventory">Inventario</div>
+
+			<span class="cir">Circulos:</span><br>
+			<div class="shapes" id="circulos">
+				<!-- <div class="circulo"></div> -->
+			</div>
+
+			<span class="tri">Triangulos:</span><br>
+			<div class="shapes" id="triangulos">
+				<!-- <div class="triangulo"></div> -->
+			</div>
+
+			<span class="cua">Cuadrados:</span><br>
+			<div class="shapes" id="cuadrados">
+				<!-- <div class="cuadrado"></div> -->
+			</div>
+
+			<span class="rom">Rombos:</span><br>
+			<div class="shapes" id="rombos">
+				<!-- <div class="rombo"></div> -->
+			</div>
+		</div>
+
+		<div class="der-container"> <!-- Derecha -->
+			<div class="upgrades">Mejoras</div>
+			<div class="upgrades-body">
+				<div class="upgrade-card uc1">
+					<div class="circuloU c1">NV.0</div>
+					<div class="u-description"><p>Gana +1 punto extra cada vez que haces click</p></div>
+					<button class="comprar">
+						<p>Comprar</p>
+						<div class="circulo priceCir">2</div>
+					</button>
+				</div>
+				<div class="upgrade-card uc2">
+					<div class="circuloU c2">NV.0</div>
+					<div class="u-description"><p>Gana +1 punto extra cada vez que haces click</p></div>
+					<button class="comprar">
+						<p>Comprar</p>
+						<div class="circulo priceCir">2</div>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
